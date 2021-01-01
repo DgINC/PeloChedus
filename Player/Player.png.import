@@ -1,0 +1,17 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture"
+path="res://.import/Player.png-3d0801c65bdfc563657cfa304115f1c7.res"
+group_file="res://Atlases/player.png"
+valid=true
+[deps]
+
+
+source_file="res://Player/Player.png"
+dest_files=[ "res://.import/Player.png-3d0801c65bdfc563657cfa304115f1c7.res" ]
+
+[params]
+
+atlas_file="res://Atlases/player.png"
+import_mode=0
