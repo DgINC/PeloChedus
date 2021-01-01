@@ -21,7 +21,7 @@ tracks/0/keys = {
 "values": [ 1 ]
 }
 
-[sub_resource type="Animation" id=4]
+[sub_resource type="Animation" id=3]
 resource_name = "falling"
 tracks/0/type = "value"
 tracks/0/path = NodePath("Sprite:frame")
@@ -36,8 +36,7 @@ tracks/0/keys = {
 "values": [ 0 ]
 }
 
-[sub_resource type="Animation" id=3]
-resource_name = "jump"
+[sub_resource type="Animation" id=4]
 tracks/0/type = "value"
 tracks/0/path = NodePath("Sprite:frame")
 tracks/0/interp = 1
@@ -74,7 +73,8 @@ polygon = PoolVector2Array( -7.11059, 11.397, -12.488, -0.331814, -0.330405, -0.
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/Idle = SubResource( 2 )
-anims/falling = SubResource( 4 )
-anims/jump = SubResource( 3 )
+anims/falling = SubResource( 3 )
+anims/jump = SubResource( 4 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 296, -160 )
